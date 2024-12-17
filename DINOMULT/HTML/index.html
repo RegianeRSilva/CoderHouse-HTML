@@ -4,24 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="dinno.ico" type="image/x-icon">
+    <!-- Na linha de baixo incluindo o favicon -->
+    <link rel="shortcut icon" href="./ASSETS/ICONES/dino.ico" type="image/x-icon"> 
     <title>Dinomult</title>
 </head>
     <!--  Conteudo visivel para o usuario -->
 <body>
-    <section>
-        <button class="centra-ajuda" onclick="window.location.href='contact.html'">
-            <img src="./ASSETS/ICONES/pergunta.png" alt="Central de Ajuda">
-        </button>   
-        <button class="login" onclick="window.location.href='login.html'"><b>Entrar</b></button>
-        <button class="criar-conta" onclick="window.location.href='cadastro.html'"><b>Criar Conta</b></button>
-    </section>
+    <header>
+        
+        <h1><a href="index.html"><img src="./ASSETS/ICONES/logodino.png"/></a></h1>
+        <!-- Navbar -->
+        <nav>
+            <!-- UL = Lista não ordenada (unordered list)-->
+            <ul>
+                <li><a href="contact.html"><img src="./ASSETS/ICONES/pergunta.png"/></a></li>
+                <li><a href="login.html">Entrar </a></li>
+                <li><a href="cadastro.html"> Criar Conta </a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section>
-        <h1 texto-index><strong> Dinomult</strong><br> Transformando tarefas complexas em cliques simples</h1>
-        <p>Encurte links, gere QR-code e converta arquivos de forma simples.</p>
-        <button class="dash-index" onclick="window.location.href='dashboard.html'"><b>Comece Já</b></button>
-    </section>
+    <main>
+        <h1 texto-index>Dinomult</h1> 
+        <h3>Transformando tarefas complexas em cliques simples</h3>
+        <p><strong>Encurte links, gere códigos QR e converta arquivos de forma simples.</strong></p>
+        <a href="dashboard.html"> Comece Já </a>
+    </main>
     
 
 </body>
