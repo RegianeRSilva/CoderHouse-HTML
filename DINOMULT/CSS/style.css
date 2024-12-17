@@ -1,1 +1,100 @@
-/* teste */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: Nunito;
+    background-image: url('/DINOMULT/HTML/ASSETS/Background/Dinomult.com\ 4K.png');
+    background-size: cover; /* Ajusta a imagem para cobrir o fundo inteiro */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center; /* Centraliza a imagem a direita no corpo */;
+}
+
+/* HEADER - Container principal */
+header {
+    display: flex;
+    justify-content: space-between; /* Alinha itens horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 10px 20px;
+    /* background-color: #ffffff; */ /* kkk se colocar cor a imagem não expande até o topo*/
+}
+
+/* Logo */
+.logo img {
+    width: 120px; /* Redimensiona o logo */
+    height: auto;
+}
+
+/* MENU - Navbar */
+.menu-index ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-index li {
+    margin-left: 20px; /* Espaço entre itens */
+    cursor: pointer;  /* Aparecer o cursor ao se aproximar */
+}
+
+.menu-index a {
+    text-decoration: none;
+    color: #000; /* Cor preta */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu-index img {
+    width: 40px; /* Redimensiona o ícone "?" */
+    height: 40px;
+}
+
+/* MAIN - Texto e Botão */
+main.texto-index {
+    text-align: left;
+    padding: 50px 5%;
+    max-width: 600px; /* Largura máxima */
+    margin: 50px 0; /* remove centralizacao*/
+    position: relative;
+    z-index: 1;
+}
+
+main.texto-index h1 {
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+main.texto-index h3 {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+main.texto-index p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+main.texto-index a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff7f4d; /* Laranja */
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 2;
+}
+
+main.texto-index a:hover {
+    background-color: #e66939; /* Laranja mais escuro ao passar o mouse */
+}
