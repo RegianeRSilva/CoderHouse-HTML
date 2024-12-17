@@ -10,7 +10,7 @@
 body {
     /* font-family: Arial, sans-serif; */
     font-family: Nunito;
-    background-image: url('/DINOMULT/HTML/ASSETS/Background/Dinomult.com\ 4K.png');
+    background-image: url('../HTML/ASSETS/Background/Dinomult.com\ 4K.png');
     background-size: cover; /* Ajusta a imagem para cobrir o fundo inteiro */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     background-position: center; /* Centraliza a imagem a direita no corpo */;
