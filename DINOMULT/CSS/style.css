@@ -9,6 +9,10 @@
 
 body {
     /* font-family: Arial, sans-serif; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* min-height: 100vh; */
     font-family: Nunito;
     background-image: url('../HTML/ASSETS/Background/Dinomult.com\ 4K.png');
     background-size: cover; /* Ajusta a imagem para cobrir o fundo inteiro */
@@ -77,6 +81,27 @@ header {
 }
 
 .wrapper {
+
+    /*position: relative; /* Mude para fixed */
+    /*top: 30%; /* Centraliza verticalmente */
+    /*left: 30%; /* Centraliza horizontalmente */
+    /*transform: translate(-30%, -30%); /* Ajusta a posição para centralizar */
+    /* width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(0);
+    transition: transform .5s ease, height .2s ease; */
+
+
+    /* bloco abaixo é o original porém não fica centralizado */
     position: relative;
     width: 400px;
     height: 440px;
